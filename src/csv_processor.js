@@ -1,6 +1,6 @@
 function procesarCSV() {
     // Tu cadena CSV
-    var datosCSV = `latitude,longitude,bright_ti4,scan,track,acq_date,acq_time,satellite,instrument,confidence,version,bright_ti5,frp,daynight 
+    var datosCSV = ` latitude , longitude , bright_ti4 , scan , track , acq_date , acq_time , satellite , instrument , confidence , version, bright_ti5 , frp , daynight  
     36.17878,-5.42589,299.48,0.79,0.78,2023-10-07,105,N,VIIRS,n,2.0NRT,286.36,1.74,N
     38.92229,-9.01235,302.78,0.45,0.39,2023-10-07,243,N,VIIRS,n,2.0NRT,290.17,1.15,N
     40.28931,-8.4178,302.34,0.45,0.39,2023-10-07,243,N,VIIRS,n,2.0NRT,290.71,0.66,N
