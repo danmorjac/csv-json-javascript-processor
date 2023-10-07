@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSV Parser</title>
-    <script src="index.js"></script>
-    <!-- Vincula el archivo JavaScript aquí -->
-  </head>
-  <body>
-    <h1>Datos CSV Parseados</h1>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Nombre</th>
-          <th>Edad</th>
-          <th>Email</th>
-        </tr>
-      </thead>
-      <tbody id="csvData"></tbody>
-    </table>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesamiento de Datos</title>
+</head>
+<body>
+    <h1>Procesamiento de Datos en JavaScript</h1>
+
+    <h2>Datos CSV</h2>
+    <button onclick="procesarCSV()">Procesar Datos CSV</button>
+    <div id="csvResult"></div>
+
+    <h2>Datos JSON</h2>
+    <button onclick="procesarJSON()">Procesar Datos JSON</button>
+    <div id="jsonResult"></div>
+
+    <script src="csv_processor.js"></script>
+    <script src="json_processor.js"></script>
+</body>
 </html>
